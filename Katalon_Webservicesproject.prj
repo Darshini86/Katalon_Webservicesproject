@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>Katalon_Webservicesproject</name>
+   <name>Katalon_WebUiproject</name>
    <tag></tag>
    <UUID>98955cc4-3c3a-479f-b1ab-0c1ce481b23f</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/Users/ganesan/git/Katalon_sample/Katalon_Webservicesproject.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
