@@ -10,11 +10,6 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
-- script: |
-
 - task: katalonTask@0
   displayName: 'Execute Katalon Studio project'
   inputs:
