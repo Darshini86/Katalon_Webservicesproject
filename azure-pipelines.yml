@@ -14,4 +14,7 @@ steps:
   inputs:
     version: '7.0.1'
     executeArgs: 'browserType="Web Service" -executionProfile="DEV_Profile" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/All Test Cases"'
-    
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'JUnit'
+    testResultsFiles: '**/TEST-*.xml'
